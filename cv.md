@@ -8,7 +8,7 @@ ksushashaborkina@mail.ru
 ***
 
 ## About me:
-Student, Innovation, RTU. Just starting codding. Like to make photos and videos.
+Student, Innovation, Russian Technology University. Just starting codding. Like to make photos and videos.
 
 ## Skills:
 Beginner in Python, HTML, CSS, JS. Also can work with LaTex.
