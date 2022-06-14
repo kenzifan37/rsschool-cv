@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha512-Dop/vW3iOtayerlYAqCgkVr2aTr2ErwwTYOvRFUpzl2VhCMJyjQF0Q9TjUXIo6JhuM/3i0vVEt2e/7QQmnHQqw==" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600&display=swap" rel="stylesheet">
+    <title>My CV</title>
+</head>
+
+<body>
+
+
+<header>
+    <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#Profile" class="nav-link">Profile</a></li>
+          <li class="nav-item"><a href="#Skills" class="nav-link">Skills</a></li>
+          <li class="nav-item"><a href="#Education" class="nav-link">Education</a></li>
+          <li class="nav-item"><a href="#Contact" class="nav-link">Contact</a></li>
+          <li class="nav-item"><a href="#Code" class="nav-link">Code</a></li>
+          <li class="nav-item"><a href="#Projects" class="nav-link">Projects</a></li>
+        </ul>
+      </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <img src="img/Полар-106.jpg" alt="My photo" class="img-responsive img-circle" style="width: 300px;">
+                <h1>Shaborkina Ksenia</h1>
+                <h2>Junior Frontend developer</h2>
+             </div>
+         </div>
+    </div>
+</header>
+
+<main>
+    <section class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="about" id="Profile">
+                     <h2>About me</h2>
+                    <p>Just start coding. Wish me luck:)</p>
+                    <h2>English level:</h2>
+                    <p>B1</p>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="skills" id="Skills">
+                    <h2>My skills</h2>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JS</li>
+                    </ul>
+                </div>
+            </div>
+
+
+
+        </div>
+    </section>
+
+    <section class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="education" id="Education">
+                    <h2>Education</h2>
+                    <h4 class="education-title">Innovation</h4>
+                    <div class="education-school">
+                        <h5>RTU MIREA</h5>
+                        <h5>2018-2022</h5>
+                    </div>
+                    <p class="education-description">
+                        Learn about economy, logistic and technologies.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="contact" id="Contact">
+                    <h2>Contact</h2>
+                    <ul>
+                        <li><b>My phone:</b>1(234)567-89-00</li>
+                        <li><b>My email:</b> real-programme@mail.com</li>
+                        <li><b>My adress:</b> Elisium</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="code" id="Code">
+                    <h2>My Code:</h2>
+                    <pre>
+                        <code>
+                            function array(arr){
+                                var t = arr.split(",");
+                                if (t.length>2) {
+                                  t == t.pop();
+                                  t == t.shift();
+                                  return t.join(" ");
+                                } else {
+                                  return null;
+                                }
+                        </code>
+                    </pre>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="projects" id="Projects">
+                    <h2>My project</h2>
+                    <p>You can see <a href="https://kenzifan37.github.io/rsschool-cv/">my CV</a>.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+</main>
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <a href="https://rs.school/js/">
+                    <img style="width: 100px;" alt="Logo RS" src="img/rs_school_js.svg">
+                </a>
+            </div>
+            <div class="col-md-4">
+                <p>2022</p>
+            </div>
+            <div class="col-md-4">
+                <a href="https://github.com/kenzifan37">
+                    <img style="width: 100px;" alt="Logo GH" src="img/GitHub_Logo.png">
+                </a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+    
+</body>
+</html>
